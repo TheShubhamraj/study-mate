@@ -45,7 +45,7 @@ export default function LoginPage() {
             <span className="text-2xl font-semibold">StudyMate</span>
           </Link>
           <h1 className="text-2xl font-bold text-balance">Welcome back</h1>
-          <p className="text-muted-foreground text-pretty">Sign in to continue your learning journey</p>
+          <p className="text-muted-foreground text-pretty">Sign in to continue your learning</p>
         </div>
 
         <Card className="border-border/50 bg-card/50 backdrop-blur-sm">
