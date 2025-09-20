@@ -1,5 +1,3 @@
-// Cloudinary configuration for file uploads in production
-// This is an alternative to local file storage for Vercel deployment
 
 interface CloudinaryUploadResult {
   public_id: string;
@@ -39,7 +37,7 @@ export async function deleteFromCloudinary(publicId: string): Promise<void> {
       },
       body: JSON.stringify({
         public_id: publicId,
-        signature: process.env.CLOUDINARY_API_SECRET, // You might want to generate a proper signature
+        signature: process.env.CLOUDINARY_API_SECRET,
       }),
     }
   );
